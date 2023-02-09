@@ -1,0 +1,6 @@
+framework module Pods_TMDB_UiKIT_MVVM_TMDB_UiKIT_MVVMUITests {
+  umbrella header "Pods-TMDB_UiKIT_MVVM-TMDB_UiKIT_MVVMUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
