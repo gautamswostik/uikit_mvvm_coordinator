@@ -10,6 +10,7 @@ target 'TMDB_UiKIT_MVVM' do
     pod 'Alamofire'
     pod 'RxSwift'
     pod 'RxCocoa'
+    pod 'SDWebImage'
     pod 'Material', '~> 3.1.0'
 
   target 'TMDB_UiKIT_MVVMTests' do

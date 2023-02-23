@@ -10,7 +10,7 @@
 		7C0209662983983300BDC401 /* TMDBViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0209652983983300BDC401 /* TMDBViewModel.swift */; };
 		7C0DDF0C298238640016A210 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0DDF0B298238640016A210 /* AppDelegate.swift */; };
 		7C0DDF0E298238640016A210 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0DDF0D298238640016A210 /* SceneDelegate.swift */; };
-		7C0DDF10298238640016A210 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0DDF0F298238640016A210 /* ViewController.swift */; };
+		7C0DDF10298238640016A210 /* TmdbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0DDF0F298238640016A210 /* TmdbViewController.swift */; };
 		7C0DDF13298238640016A210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C0DDF11298238640016A210 /* Main.storyboard */; };
 		7C0DDF15298238650016A210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C0DDF14298238650016A210 /* Assets.xcassets */; };
 		7C0DDF18298238650016A210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C0DDF16298238650016A210 /* LaunchScreen.storyboard */; };
@@ -58,7 +58,7 @@
 		7C0DDF08298238640016A210 /* TMDB_UiKIT_MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMDB_UiKIT_MVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C0DDF0B298238640016A210 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C0DDF0D298238640016A210 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7C0DDF0F298238640016A210 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7C0DDF0F298238640016A210 /* TmdbViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmdbViewController.swift; sourceTree = "<group>"; };
 		7C0DDF12298238640016A210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C0DDF14298238650016A210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C0DDF17298238650016A210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -168,6 +168,7 @@
 				7C5D36552982E4E600187992 /* Core */,
 				7C5D364F2982E10E00187992 /* Startup */,
 				7C5D364E2982E10400187992 /* Views */,
+				7CB1F80D2996551A00256C46 /* CustomViews */,
 				7C5D364D2982E0F600187992 /* Services */,
 				7C5D364C2982E0ED00187992 /* ViewModel */,
 				7CA5E9D92982683100DB075C /* Models */,
@@ -217,7 +218,7 @@
 		7C5D364E2982E10400187992 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				7C0DDF0F298238640016A210 /* ViewController.swift */,
+				7C0DDF0F298238640016A210 /* TmdbViewController.swift */,
 				7CD5BA4B2984D126005BA545 /* SecondViewController.swift */,
 				7CB1F80B2994888C00256C46 /* ThirdViewController.swift */,
 			);
@@ -249,6 +250,13 @@
 				7C5D365C2982EA8E00187992 /* TrendingModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		7CB1F80D2996551A00256C46 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 		7CD5BA462984BD95005BA545 /* Extensions */ = {
@@ -504,7 +512,7 @@
 				7C0209662983983300BDC401 /* TMDBViewModel.swift in Sources */,
 				7CD5BA4C2984D126005BA545 /* SecondViewController.swift in Sources */,
 				7C41C73C29842FF7003AA2D2 /* AppCoordinator.swift in Sources */,
-				7C0DDF10298238640016A210 /* ViewController.swift in Sources */,
+				7C0DDF10298238640016A210 /* TmdbViewController.swift in Sources */,
 				7CD5BA4A2984C337005BA545 /* SimpleViewModel.swift in Sources */,
 				7C5D36592982E50B00187992 /* ApiConstants.swift in Sources */,
 				7C5D365B2982E5C700187992 /* TMDBApiService.swift in Sources */,
